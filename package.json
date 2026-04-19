@@ -1,0 +1,26 @@
+{
+  "name": "oauth-authentication-app",
+  "version": "1.0.0",
+  "description": "Aplicação web com autenticação OAuth Google, JWT e banco de dados",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["oauth", "google", "jwt", "authentication"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "dotenv": "^16.0.3",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5",
+    "express-session": "^1.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
